@@ -1,6 +1,6 @@
 //your JS code here. If required.
-let userN = document.getElementById('Username').value;
-let pass = document.getElementById('Password').value;
+let userN = document.getElementById('username').value;
+let pass = document.getElementById('password').value;
 let check = document.getElementById('checkbox').checked;
 
 
