@@ -12,7 +12,7 @@ let check = document.getElementById('checkbox').checked;
     }
 
 
-     function handlesubmit(event){
+     function handleSubmit(event){
 	 event.preventDefault();
 		 
 	 if(check){
