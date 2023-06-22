@@ -24,12 +24,12 @@ else{
 	localStorage.removeItem('userName');
 	localStorage.removeItem('password');
 }
-  alert("Logged in as " + username);
+  alert("Logged in as " + userN);
 		 
 	 }
 document.getElementById("loginForm").addEventListener("submit", handleSubmit);
  function handleExistingClick() {
-      var savedUsername = localStorage.getItem("username");
+      var savedUsername = localStorage.getItem("userName");
       alert("Logged in as " + savedUsername);
     }
 
