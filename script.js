@@ -4,7 +4,7 @@ let pass = document.getElementById('password').value;
 let check = document.getElementById('checkbox').checked;
 
 
- if (localStorage.getItem("username") && localStorage.getItem("password")) {
+ if (localStorage.getItem("userName") && localStorage.getItem("password")) {
       var existingButton = document.createElement("button");
       existingButton.id = "existing";
       existingButton.textContent = "Login as existing user";
